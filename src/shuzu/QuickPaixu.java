@@ -1,3 +1,4 @@
+//使用arrays类中的sort方法直接进行快排
 package shuzu;
 
 import java.util.Arrays;
