@@ -7,6 +7,8 @@ public class Person {
 	private int age;
 	private String sex;
 	private String gender = "male";
+	protected String DNA="xxxxxxxxxxxxx";
+	
 	public Person(int age,String name) {
 		// TODO 自动生成的构造函数存根
 		this.age = age;
