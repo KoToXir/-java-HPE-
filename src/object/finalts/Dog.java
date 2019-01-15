@@ -1,4 +1,4 @@
-package object.finalt;
+package object.finalts;
 //定义一个final方法
 public class Dog {
 	public final void shout() {
