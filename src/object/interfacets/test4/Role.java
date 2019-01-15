@@ -23,7 +23,7 @@ public abstract class Role {
 	public void setSex(String sex) {
 		this.sex = sex;
 	}
-	
+	//构造方法
 	public Role() {};
 	public Role(String name,int age,String sex) {
 		this();
@@ -32,7 +32,7 @@ public abstract class Role {
 		this.sex = sex;
 	}
 	
-	public abstract void play();;
+	public abstract void play();
 	public void say() {
 		System.out.println("这是一个普通方法");
 	}
