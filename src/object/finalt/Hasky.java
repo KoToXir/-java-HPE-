@@ -3,6 +3,6 @@ package object.finalt;
 public class Hasky extends Dog {
 	final int age = 20;
 	public Hasky(int ag) {
-		this.age = ag;
+		//this.age = ag;//final变量无法修改
 	}
 }
