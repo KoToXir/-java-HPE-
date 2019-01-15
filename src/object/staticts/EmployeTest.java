@@ -1,4 +1,4 @@
-package object.statict;
+package object.staticts;
 
 public class EmployeTest {
 

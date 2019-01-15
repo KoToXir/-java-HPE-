@@ -1,7 +1,7 @@
 /**
  * 定一个类MyArray，在类中使用静态成员函数对外提供，求数组中最大值，数组中最小值，数组长度，数组排序，数组显示的功能函数。
  */
-package object.statict;
+package object.staticts;
 
 import java.util.Arrays;
 

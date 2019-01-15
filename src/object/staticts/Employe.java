@@ -2,7 +2,7 @@
  * 定义一个员工类,自己分析出几个成员，然后给出成员变量和成员方法，构造方法，getXxx()/setXxx()方法，
  * 以及一个显示所有成员信息的方法，并给出一个静态成员变量和一个静态成员方法。最后进行测试验证。
  */
-package object.statict;
+package object.staticts;
 
 public class Employe {
 	private String name;

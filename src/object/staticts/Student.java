@@ -1,7 +1,7 @@
 /**
  * 定义一个学生类（Student）,分析出需要的属性以及行为，要求，有一个属性是静态，有一个行为是静态的，并进行测试验证。
  */
-package object.statict;
+package object.staticts;
 
 public class Student {
 	private String name;
