@@ -3,9 +3,9 @@ package object.useful;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Iterator;
 import java.util.List;
 
-import sun.security.pkcs11.P11TlsKeyMaterialGenerator;
 
 /**
  * 集合框架：arraylist学习
@@ -101,6 +101,26 @@ public class ArrayListTest {
 			SimpleDateFormat fo = new SimpleDateFormat("yyyy.MM.dd-hh:mm:ss");
 			System.out.println(fo.format(dateList.get(ds)));
 		}
+		
+		//迭代器numList
+		Iterator<Number> its = numList.iterator();	//获取迭代器
+		//判断有没有元素
+		boolean d = its.hasNext();
+		//获取里面的元素
+		Number n1 = its.next();//获取第一个元素
+		Number n2 = its.next();//获取第二个元素
+		//设计循环
+		while (its.hasNext()) {
+			System.out.println(its.next());			
+		}
+		
+		//for自动生成的迭代器
+		/*
+		for (Iterator iterator = dateList.iterator(); iterator.hasNext();) {
+			Date date = (Date) iterator.next();
+			
+		}
+		*/
 	}
 	
 	//输入为空，输出为数字容器
