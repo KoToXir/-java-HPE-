@@ -13,6 +13,7 @@ public class Canshu_Zhi {
 	}
 	
 	public static void sway(int a,int b) {
+		//两个变量交换的高级方法
 		a=a^b;
 		b=a^b;
 		a=a^b;
