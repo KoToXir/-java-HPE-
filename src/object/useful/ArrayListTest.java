@@ -75,6 +75,11 @@ public class ArrayListTest {
 			System.out.println(string);
 		}
 		
+		for (Iterator iterator = strList.iterator(); iterator.hasNext();) {
+			System.out.println(iterator.next());
+			
+		}
+		
 		//person容器
 		List<Person> personList = new ArrayList<Person>();
 		Person p1= new Person();

@@ -3,6 +3,8 @@
  */
 package basic;
 
+
+
 public class StrCon {
 	
 	public static void main(String args[]) {
@@ -10,6 +12,13 @@ public class StrCon {
 		String b = "def";
 		String c = "ghi";
 		System.out.println(a.concat(b.concat(c)));
+		
+		String str = "Hello World";
+		String[] ns = str.split(" ");
+		if(ns[0].equals(ns[1])) {
+			System.out.println("分割后前后相等");
+		}
+		System.out.println(ns[1]);
 		
 	}
 }
