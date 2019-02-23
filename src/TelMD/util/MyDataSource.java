@@ -28,7 +28,7 @@ public class MyDataSource {
 		// 创建dbcp 数据源
 		BasicDataSource bds = new BasicDataSource();
 
-		bds.setUrl("jdbc:mysql://localhost:3306/hpe");
+		bds.setUrl("jdbc:mysql://localhost:3386/hpe");
 		bds.setDriverClassName("com.mysql.jdbc.Driver");
 		bds.setUsername("root");
 		bds.setPassword("root");
