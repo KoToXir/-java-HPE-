@@ -6,7 +6,6 @@ import java.util.Scanner;
 import TelMC.po.TelephoneItem;
 import TelMC.service.TelephoneManager;
 import TelMC.service.impl.TelephoneManagerImpl;
-import jdk.nashorn.internal.runtime.FindProperty;
 
 public class MainUI {
 	
